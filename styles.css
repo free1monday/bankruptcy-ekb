@@ -482,6 +482,22 @@ body::before {
   color: var(--brown);
 }
 
+.partner__small {
+  margin: 14px 0 0;
+  font-size: .72rem;
+  color: var(--grey);
+}
+.partner__small a {
+  color: var(--grey);
+  text-decoration: underline;
+  text-decoration-color: var(--green-light);
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 2px;
+}
+.partner__small a:hover {
+  color: var(--green-dark);
+}
+
 /* --------------------------- FOOTER -------------------------- */
 .footer {
   margin-top: auto;
@@ -502,6 +518,22 @@ body::before {
   color: var(--brown);
 }
 .footer span { color: var(--grey); }
+
+.footer__partner {
+  margin-top: 10px;
+  font-size: .68rem;
+  color: var(--grey);
+}
+.footer__partner a {
+  color: var(--grey);
+  text-decoration: underline;
+  text-decoration-color: var(--green-light);
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 2px;
+}
+.footer__partner a:hover {
+  color: var(--green-dark);
+}
 
 /* -------------------------- MOTION --------------------------- */
 @keyframes pulse {
