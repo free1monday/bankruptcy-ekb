@@ -12,7 +12,6 @@
 
 ## Ссылки на сайте
 - Telegram менеджера: `https://t.me/blast29`
-- Основной сайт: `https://strange-cases.vercel.app`
 - Сайт партнёра: `https://pervoebankrotnoe.ru/` (в контактах и футере, малый шрифт)
 
 ## Цифры (опыт партнёра)

@@ -498,6 +498,10 @@ body::before {
 }
 .btn svg { width: 20px; height: 20px; flex: none; }
 .btn__arrow { width: 17px !important; height: 17px !important; }
+
+.btn__hero {
+  margin-top: clamp(28px, 5vh, 44px);
+}
 .btn:hover {
   background: var(--green);
   transform: translateY(-2px);
