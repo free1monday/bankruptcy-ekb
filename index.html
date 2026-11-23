@@ -7,8 +7,8 @@
   <meta name="color-scheme" content="light">
   <meta name="format-detection" content="telephone=no">
 
-  <title>Банкротство физических лиц в Екатеринбурге | Первое банкротное бюро</title>
-  <meta name="description" content="Банкротство физических лиц в Екатеринбурге. 2000+ успешных списаний долгов, 500+ клиентов, ведение под ключ, рассрочка, скидки до 70%. Первое банкротное бюро, арбитражный управляющий Владимир Михайлович Шамои.">
+  <title>Помощь с банкротством физических лиц в Екатеринбурге</title>
+  <meta name="description" content="Информация о банкротстве физических лиц в Екатеринбурге. Помощь в оформлении процедуры, партнёрство с Первым банкротным бюро, запись через Telegram. БЦ Филитц.">
   <link rel="canonical" href="https://bankruptcy-ekb.vercel.app/">
   <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
   <link rel="apple-touch-icon" href="assets/mark.svg">
@@ -23,13 +23,27 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LegalService",
-        "@id": "https://bankruptcy-ekb.vercel.app/#service",
+        "@type": "Person",
+        "@id": "https://bankruptcy-ekb.vercel.app/#person",
+        "name": "Менеджер по работе с клиентами",
+        "jobTitle": "Менеджер по банкротству физических лиц",
+        "worksFor": { "@id": "https://bankruptcy-ekb.vercel.app/#organization" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Служба поддержки",
+          "url": "https://t.me/nettakihdel",
+          "availableLanguage": "Russian"
+        },
+        "sameAs": ["https://t.me/nettakihdel", "https://strange-cases.vercel.app/"]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://bankruptcy-ekb.vercel.app/#organization",
         "name": "Первое банкротное бюро",
-        "slogan": "Свобода от долгов начинается здесь",
-        "url": "https://bankruptcy-ekb.vercel.app/",
-        "image": "https://bankruptcy-ekb.vercel.app/assets/og-image.png",
-        "description": "Арбитражный управляющий Владимир Михайлович Шамои. Банкротство физических лиц в Екатеринбурге. 2000+ списанных долгов, 500+ клиентов, рассрочка, скидки до 70%. Ведение под ключ.",
+        "slogan": "Надёжный партнёр по банкротству физических лиц",
+        "url": "https://t.me/nettakihdel",
+        "image": "https://bankruptcy-ekb.vercel.app/assets/mark.svg",
+        "description": "Партнёрский бюро по банкротству физических лиц в Екатеринбурге. Арбитражный управляющий Владимир Михайлович Шамои.",
         "areaServed": { "@type": "City", "name": "Екатеринбург" },
         "address": {
           "@type": "PostalAddress",
@@ -38,39 +52,15 @@
           "addressRegion": "Свердловская область",
           "addressCountry": "RU"
         },
-        "priceRange": "Скидки до 70% на процедуру банкротства, рассрочка",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "Менеджер по клиентам",
-          "url": "https://t.me/nettakihdel",
-          "availableLanguage": "Russian"
-        },
-        "sameAs": ["https://t.me/nettakihdel"],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Услуги по банкротству физических лиц",
-          "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Банкротство физических лиц под ключ" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Списание долгов через суд" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Юридическое сопровождение банкротства" } }
-          ]
-        }
-      },
-      {
-        "@type": "Person",
-        "@id": "https://bankruptcy-ekb.vercel.app/#person",
-        "name": "Владимир Михайлович Шамои",
-        "jobTitle": "Арбитражный управляющий",
-        "worksFor": { "@id": "https://bankruptcy-ekb.vercel.app/#service" },
-        "address": { "@id": "https://bankruptcy-ekb.vercel.app/#service" }
+        "sameAs": ["https://t.me/nettakihdel"]
       },
       {
         "@type": "WebSite",
         "@id": "https://bankruptcy-ekb.vercel.app/#website",
         "url": "https://bankruptcy-ekb.vercel.app/",
-        "name": "Первое банкротное бюро",
+        "name": "Помощь с банкротством физлиц в Екатеринбурге",
         "inLanguage": "ru",
-        "publisher": { "@id": "https://bankruptcy-ekb.vercel.app/#service" }
+        "publisher": { "@id": "https://bankruptcy-ekb.vercel.app/#organization" }
       }
     ]
   }
@@ -112,18 +102,18 @@
         <img class="hero__mark" src="assets/mark.svg" width="72" height="72"
              alt="Зелёная эмблема: весы правосудия в ветви дерева" decoding="async">
 
-        <p class="hero__eyebrow"><span class="pulse" aria-hidden="true"></span> Банкротство физических лиц · Екатеринбург</p>
+        <p class="hero__eyebrow"><span class="pulse" aria-hidden="true"></span> Екатеринбург · помощь с банкротством физлиц</p>
 
         <h1 id="hero-title" class="hero__title">
-          <span class="hero__line1">Свобода от</span>
-          <span class="hero__line2">долгов</span>
-          <span class="sr-only">Первое банкротное бюро Екатеринбург, Владимир Михайлович Шамои, арбитражный управляющий</span>
+          <span class="hero__line1">Помогаем избавиться</span>
+          <span class="hero__line2">от долгов</span>
+          <span class="sr-only">Первое банкротное бюро, Владимир Михайлович Шамои, арбитражный управляющий, партнёр</span>
         </h1>
 
-        <p class="hero__tagline">2000+ списанных долгов · 500+ клиентов · скидки до 70% · рассрочка</p>
+        <p class="hero__tagline">Информация о процедуре банкротства физических лиц в Екатеринбурге. Запись на консультацию через Telegram.</p>
         <a class="btn" href="https://t.me/nettakihdel" target="_blank" rel="noopener noreferrer"
            data-analytics="telegram_click" aria-label="Написать менеджеру в Telegram">
-          Бесплатная консультация
+          Написать в Telegram
           <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 12h15m-6-6 6 6-6 6"/>
           </svg>
@@ -131,99 +121,86 @@
         <div class="hero__line" aria-hidden="true"></div>
       </section>
 
-      <!-- 2. О БЮРО -->
+      <!-- 2. О ПРОЕКТЕ (о пользователе / менеджере) -->
       <section class="about" aria-labelledby="about-title">
-        <h2 id="about-title" class="section-label">О бюро</h2>
+        <h2 id="about-title" class="section-label">О проекте</h2>
 
         <div class="about__grid">
           <div class="about__card">
-            <h3>Первое банкротное бюро</h3>
-            <p>Одна из первых организаций в Екатеринбурге, занимающаяся банкротством физических лиц. Ведём дела от первой консультации до окончательного списания долгов.</p>
+            <h3>Кто мы</h3>
+            <p>Мы помогаем людям в Екатеринбурге разобраться с процедурой банкротства физических лиц: от первой консультации до сопровождения на всех этапах.</p>
           </div>
           <div class="about__card">
-            <h3>Владимир Михайлович Шамои</h3>
-            <p>Арбитражный управляющий и руководитель бюро. Ведёт процедуры банкротства с 2022 года, в том числе лично помог основателю этого проекта избавиться от долгов.</p>
+            <h3>Чем мы занимаемся</h3>
+            <p>Консультируем по вопросам списания долгов, собираем необходимую информацию, записываем на приём к партнёрскому арбитражному управляющему.</p>
           </div>
           <div class="about__card">
-            <h3>БЦ Филитц, Екатеринбург</h3>
-            <p>Наш офис в деловом центре Филитц. Консультация по предварительной записи через Telegram.</p>
+            <h3>Как связаться</h3>
+            <p>Вся запись и вопросы — через Telegram. Первый контакт бесплатный.</p>
           </div>
         </div>
       </section>
 
-      <!-- 3. ЦИФРЫ -->
-      <section class="stats" aria-labelledby="stats-title">
-        <h2 id="stats-title" class="section-label">По цифрам</h2>
-        <ul class="stats__list">
-          <li class="stat">
-            <span class="stat__number">2000+</span>
-            <span class="stat__label">успешных списаний долгов</span>
-          </li>
-          <li class="stat">
-            <span class="stat__number">500+</span>
-            <span class="stat__label">регулярных клиентов</span>
-          </li>
-          <li class="stat">
-            <span class="stat__number">до 70%</span>
-            <span class="stat__label">скидка на процедуру банкротства</span>
-          </li>
-          <li class="stat">
-            <span class="stat__number">с 2022</span>
-            <span class="stat__label">ведем дела по банкротству физлиц</span>
-          </li>
-        </ul>
+      <!-- 3. ПАРТНЁРЫ -->
+      <section class="partners" aria-labelledby="partners-title">
+        <h2 id="partners-title" class="section-label">Наши партнёры</h2>
+
+        <div class="partner__card">
+          <div class="partner__content">
+            <h3>Первое банкротное бюро</h3>
+            <p>Надёжный партнёр по банкротству физических лиц в Екатеринбурге. Работаем вместе, чтобы клиенты получали качественное юридическое сопровождение.</p>
+            <p><strong>Руководитель:</strong> Владимир Михайлович Шамои, арбитражный управляющий</p>
+            <p><strong>Опыт:</strong> ведёт процедуры банкротства с 2022 года</p>
+            <p><strong>Местоположение:</strong> БЦ Филитц, Екатеринбург</p>
+            <a class="partner__link" href="#" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт партнёра <span aria-hidden="true">→</span>
+            </a>
+            <p class="partner__note">Замените ссылку выше на реальный адрес сайта партнёра.</p>
+          </div>
+        </div>
       </section>
 
-      <!-- 4. УСЛУГИ -->
-      <section class="services" aria-labelledby="services-title">
-        <h2 id="services-title" class="section-label">Что входит в ведение дела</h2>
-
-        <ul class="services__grid">
-          <li class="service">
-            <div class="service__top">
-              <span class="service__num" aria-hidden="true">01</span>
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M12 6.5v10m0 0-3.5-3.5M12 16.5l3.5-3.5"/>
-                <path d="M1.5 12h2m17 0h2"/>
-              </svg>
+      <!-- 4. КАК МЫ РАБОТАЕМ -->
+      <section class="steps" aria-labelledby="steps-title">
+        <h2 id="steps-title" class="section-label">Как мы работаем</h2>
+        <ol class="steps__list">
+          <li class="step">
+            <span class="step__num">01</span>
+            <div>
+              <h3>Пишете в Telegram</h3>
+              <p>Задаёте вопросы по банкротству, рассказываете о ситуации с долгами.</p>
             </div>
-            <h3>Банкротство под ключ</h3>
-            <p>Полное ведение дела: от сбора документов до решения суда и списания долгов.</p>
           </li>
-
-          <li class="service">
-            <div class="service__top">
-              <span class="service__num" aria-hidden="true">02</span>
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M3 3h18v18H3z"/>
-                <path d="M9 9l6 6M15 9l-6 6"/>
-              </svg>
+          <li class="step">
+            <span class="step__num">02</span>
+            <div>
+              <h3>Бесплатная консультация</h3>
+              <p>Обсуждаем возможность процедуры банкротства физических лиц и следующий шаг.</p>
             </div>
-            <h3>Списание долгов через суд</h3>
-            <p>Юридическое оформление процедуры, взаимодействие с арбитражным судом и кредиторами.</p>
           </li>
-
-          <li class="service">
-            <div class="service__top">
-              <span class="service__num" aria-hidden="true">03</span>
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M12 2.5 4 5.5v6c0 5 3.4 8.8 8 10.5 4.6-1.7 8-5.5 8-10.5v-6L12 2.5Z"/>
-                <path d="m8.8 12 2.2 2.2 4.4-4.6"/>
-              </svg>
+          <li class="step">
+            <span class="step__num">03</span>
+            <div>
+              <h3>Встреча с партнёром</h3>
+              <p>Записываем вас на консультацию к арбитражному управляющему в БЦ Филитц.</p>
             </div>
-            <h3>Рассрочка и скидки</h3>
-            <p>Удобная оплата этапами. Скидки до 70% на процедуру банкротства физических лиц.</p>
           </li>
-        </ul>
+          <li class="step">
+            <span class="step__num">04</span>
+            <div>
+              <h3>Ведение дела</h3>
+              <p>Сопровождаем на всех этапах до списания долгов.</p>
+            </div>
+          </li>
+        </ol>
       </section>
 
       <!-- 5. КОНТАКТЫ -->
       <section class="contacts" id="contacts" aria-labelledby="contacts-title">
         <p class="contacts__eyebrow">Контакты</p>
-        <h2 id="contacts-title" class="contacts__title">Первая консультация <span>бесплатно</span></h2>
+        <h2 id="contacts-title" class="contacts__title">Запись через <span>Telegram</span></h2>
 
-        <p class="contacts__note">Ведёт клиентов менеджер проекта. Запись и вопросы — только в Telegram.</p>
+        <p class="contacts__note">Ведёт клиентов менеджер проекта. Все вопросы — только в Telegram.</p>
 
         <a class="btn" href="https://t.me/nettakihdel" target="_blank" rel="noopener noreferrer"
            data-analytics="telegram_click" aria-label="Написать менеджеру в Telegram">
@@ -233,10 +210,15 @@
           </svg>
         </a>
 
-        <div class="contacts__meta">
-          <p><strong>Юрист:</strong> Владимир Михайлович Шамои, арбитражный управляющий</p>
-          <p><strong>Бюро:</strong> Первое банкротное бюро</p>
-          <p><strong>Адрес:</strong> БЦ Филитц, Екатеринбург</p>
+        <div class="contacts__row">
+          <a class="contacts__link" href="https://strange-cases.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <span class="contacts__label">Основной сайт</span>
+            <span class="contacts__arrow">→</span>
+          </a>
+          <div class="contacts__meta">
+            <p><strong>Партнёр:</strong> Первое банкротное бюро, Владимир Михайлович Шамои</p>
+            <p><strong>Местоположение:</strong> БЦ Филитц, Екатеринбург</p>
+          </div>
         </div>
       </section>
 
@@ -244,8 +226,8 @@
 
     <footer class="footer">
       <div class="footer__line" aria-hidden="true"></div>
-      <p>Первое банкротное бюро · Банкротство физических лиц в Екатеринбурге</p>
-      <p>БЦ Филитц, Екатеринбург. <span>© 2026</span></p>
+      <p>Помощь с банкротством физических лиц в Екатеринбурге</p>
+      <p>Партнёр: Первое банкротное бюро, БЦ Филитц. <span>© 2026</span></p>
     </footer>
   </div>
 
